@@ -19,7 +19,7 @@ function cambiarInfoMvv(e){
     
 
     const idBoton = e.target.id;
-    const secciones = infoMvv.querySelectorAll('.mvv__info');
+    const secciones = infoMvv.querySelectorAll('.mvv__text');
 
     secciones.forEach(seccion => {
         seccion.classList.remove('mvv__text--active');
