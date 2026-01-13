@@ -46,12 +46,11 @@
     opacity: 0;
     padding: 2rem 3rem;
     background: #d2cfcf;
-    transition: 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .seccion-mvv--active{
     display: block;
     opacity: 1;
-    display: block;
 }
 
