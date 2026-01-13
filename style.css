@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    outline: 1px solid red;
+}
+
+
+.component-mvv{
+    max-width: 1500px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-mvv-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.mvv-buttons{
+    background: #ffffff;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.5s ease, box-shadow 0.3s ease;
+}
+
+.mvv-buttons--active{
+    background: #ffc400;
+    color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.400);
+}
+
+.seccion-mvv{
+    display: none;
+    opacity: 0;
+    padding: 2rem 3rem;
+    background: #d2cfcf;
+    transition: 0.3s ease;
+}
+
+.seccion-mvv--active{
+    display: block;
+    opacity: 1;
+    display: block;
+}
+
